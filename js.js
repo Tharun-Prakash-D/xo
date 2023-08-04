@@ -64,9 +64,12 @@ function add(x)
     if(arr[4]==arr[5] && arr[4]==arr[6])
     {
     if(arr[4]!==' ' && arr[5]!==' ' && arr[6]!==' ')
-    alert("Match finished "+arr[4]+" won the match")
-    if(arr[2]!==' ' && arr[5]!==' ' && arr[7]!==' ')
-    alert("Match finished "+arr[5]+" won the match")
+    alert("Match finished "+arr[4]+" won the match");
+    }
+    if(arr[2]==arr[5] && arr[5]==arr[8])
+    {
+    if(arr[2]!==' ' && arr[5]!==' ' && arr[8]!==' ')
+    alert("Match finished "+arr[5]+" won the match");
     }
     switch(x)
     {
